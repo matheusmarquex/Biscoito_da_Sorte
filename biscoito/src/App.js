@@ -27,7 +27,7 @@ class App extends Component {
     <div className="container">
         <h1>MOTIVAÇÃO DIÁRIA! :D</h1>
         <img src={biscoito} className="img" />
-        <Botao nome="Abrir Biscoito" acaoBtn={this.quebraBiscoito}/>
+        <Botao nome="ABRIR BISCOITO" acaoBtn={this.quebraBiscoito}/>
         <h3 className="textoFrase">{this.state.textoFrase}</h3>
     </div>
 
